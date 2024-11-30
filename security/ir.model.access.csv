@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_spotify_integration,access_spotify_integration,model_spotify_integration,,1,1,1,1
+access_spotify_playlist,access_spotify_playlist,model_spotify_playlist,,1,1,1,1
+access_spotify_track,access_spotify_track,model_spotify_track,,1,1,1,1
