@@ -13,3 +13,6 @@ Para más detalles, consulta el tutorial en video:
 
 - **Redirect URI**:  
   `http://localhost:8069/spotify/callback`
+
+  ![image](https://github.com/user-attachments/assets/41368326-4f44-42f4-9315-aafaabd80a07)
+
