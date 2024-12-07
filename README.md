@@ -12,7 +12,7 @@ Sigue estos pasos para integrar Spotify con Odoo:
 * Si se añaden o eliminan canciones de una playlist, al hacer clic nuevamente en Fetch Playlists, la lista se actualizará automáticamente.
 
 Para más detalles, consulta el tutorial en video:  
-[Ver video en YouTube](https://youtu.be/mmKcQRNgKng)
+[Ver video en YouTube](https://www.youtube.com/watch?v=jCxTvNNb5II)
 
 - **Redirect URI**:  
   `http://localhost:8069/spotify/callback`
