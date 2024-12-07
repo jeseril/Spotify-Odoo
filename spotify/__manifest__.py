@@ -11,7 +11,6 @@
     """,
     'author': 'Jesus Rincon',
     'website': 'https://www.linkedin.com/in/jesussebastian/',
-    'icon': 'spotify/static/description/logo.png',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
