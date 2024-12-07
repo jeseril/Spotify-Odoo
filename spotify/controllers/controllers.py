@@ -25,10 +25,9 @@ class SpotifyController(http.Controller):
                    f"response_type=token&client_id={client_id}&scope={urllib.parse.quote(scope)}" \
                    f"&redirect_uri={urllib.parse.quote(redirect_uri)}&state={state}"
 
-        return redirect(auth_url)  # Use redirect from werkzeug
+        return redirect(auth_url)
 
     def _generate_random_string(self, length=16):
-        """Generate a random string of the specified length."""
         characters = string.ascii_letters + string.digits
         return ''.join(random.choice(characters) for _ in range(length))
 
@@ -59,7 +58,7 @@ class SpotifyController(http.Controller):
         expires_in = data.get('expires_in')
         state = data.get('state')
 
-        # Asegúrate de que se recibieron todos los parámetros
+        # Nos aseguramos de que se recibieron todos los parámetros
         if not all([access_token, token_type, expires_in, state]):
             return {"status": "error", "message": "Faltan parámetros en la solicitud"}
 

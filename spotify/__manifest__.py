@@ -1,7 +1,7 @@
 {
     'name': 'Spotify',
     'version': '1.0',
-    'category': 'Integration',
+    'category': 'Connector',
     'summary': 'Integration with Spotify API',
     'description': """
         This module integrates Odoo with Spotify API to:
@@ -18,7 +18,7 @@
         'views/spotify_views.xml',
         'views/callback.xml',
     ],
-    'controllers': ['controllers/controllers.py'],
     'installable': True,
     'application': True,
+    'license': 'LGPL-3',
 }
